@@ -11,16 +11,12 @@
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0d1117;color:#e6edf3;min-height:100vh;padding:24px}
 h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .subtitle{color:#8b949e;font-size:13px;margin-bottom:24px}
-
-/* upload */
 #upload-zone{border:2px dashed #30363d;border-radius:12px;padding:48px;text-align:center;cursor:pointer;transition:border-color .2s;margin-bottom:32px}
 #upload-zone:hover,.drag-over{border-color:#58a6ff!important;background:rgba(88,166,255,.05)}
 #upload-zone .icon{font-size:40px;margin-bottom:12px}
 #upload-zone p{color:#8b949e;font-size:14px}
 #upload-zone strong{color:#e6edf3}
 #file-input{display:none}
-
-/* ticker header */
 .ticker-header{display:flex;align-items:center;gap:16px;margin-bottom:24px;padding:16px 20px;background:#161b22;border:1px solid #30363d;border-radius:10px;flex-wrap:wrap}
 .ticker-badge{font-size:22px;font-weight:800;color:#58a6ff;background:rgba(88,166,255,.12);padding:6px 14px;border-radius:8px}
 .ticker-price{font-size:26px;font-weight:700}
@@ -32,8 +28,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .regime-tab.neu{background:rgba(210,153,34,.1);border-color:#d29922;color:#d29922}
 .regime-label{font-size:10px;opacity:.7;margin-bottom:2px}
 .regime-name{font-size:13px;font-weight:800}
-
-/* signal */
 .signal-section{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px}
 @media(max-width:700px){.signal-section{grid-template-columns:1fr}}
 .signal-banner{border-radius:10px;padding:20px 24px;display:flex;align-items:flex-start;gap:14px;border:1px solid}
@@ -56,8 +50,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .why-item.pass .why-label{color:#3fb950}.why-item.fail .why-label{color:#f85149}.why-item.warn .why-label{color:#d29922}
 .why-explain{font-size:12px;color:#8b949e;line-height:1.5}
 .why-explain strong{color:#e6edf3}
-
-/* cards */
 .cards{display:grid;gap:16px;margin-bottom:28px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
 .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:18px;position:relative;overflow:hidden}
 .card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
@@ -66,8 +58,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .card-value{font-size:28px;font-weight:700;line-height:1;margin-bottom:4px}
 .card.green .card-value{color:#3fb950}.card.blue .card-value{color:#58a6ff}.card.orange .card-value{color:#d29922}.card.red .card-value{color:#f85149}.card.purple .card-value{color:#bc8cff}
 .card-sub{font-size:11px;color:#8b949e}
-
-/* charts */
 .charts-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px}
 @media(max-width:800px){.charts-grid{grid-template-columns:1fr}}
 .chart-card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px}
@@ -75,8 +65,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .chart-wrap{position:relative;height:200px}
 .chart-wrap.tall{height:280px}
 .chart-note{font-size:11px;color:#8b949e;margin-top:8px;line-height:1.5}
-
-/* analysis */
 .analysis-box{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:24px;margin-bottom:28px}
 .analysis-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .analysis-badge{font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
@@ -93,8 +81,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .analysis-point.bull .analysis-point-title{color:#3fb950}.analysis-point.bear .analysis-point-title{color:#f85149}.analysis-point.neu .analysis-point-title{color:#8b949e}
 .analysis-point-body{font-size:12px;color:#8b949e;line-height:1.5}
 .analysis-point-body strong{color:#e6edf3}
-
-/* news */
 .news-box{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:28px}
 .news-setup{padding:12px 14px;background:#0d1117;border-radius:8px;border-left:3px solid #d29922;font-size:12px;color:#8b949e;margin-bottom:14px;line-height:1.6}
 .news-setup strong{color:#e6edf3}.news-setup code{background:#21262d;padding:1px 5px;border-radius:4px;color:#58a6ff;font-size:11px}
@@ -109,8 +95,6 @@ h1{font-size:22px;font-weight:700;color:#58a6ff;margin-bottom:2px}
 .news-score.pos{background:rgba(63,185,80,.15);color:#3fb950}
 .news-score.neg{background:rgba(248,81,73,.15);color:#f85149}
 .news-score.neu{background:rgba(139,148,158,.15);color:#8b949e}
-
-/* trades table */
 .trades-table{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:28px;overflow-x:auto}
 .section-title{font-size:13px;font-weight:600;color:#8b949e;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px}
 .table-note{font-size:12px;color:#8b949e;margin-bottom:12px;line-height:1.7}
@@ -126,15 +110,11 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
 .badge.bull{background:rgba(63,185,80,.15);color:#3fb950}
 .badge.neu{background:rgba(139,148,158,.15);color:#8b949e}
 .badge.live{background:rgba(88,166,255,.15);color:#58a6ff}
-
-/* signal strength */
 .strength-bar{display:flex;align-items:center;gap:6px}
 .strength-pips{display:flex;gap:2px}
 .pip{width:7px;height:12px;border-radius:2px;background:#21262d}
 .pip.on.s-high{background:#3fb950}.pip.on.s-med{background:#d29922}.pip.on.s-low{background:#f85149}
 .strength-label{font-size:11px;color:#8b949e}
-
-/* forward tracker */
 .forward-box{background:#161b22;border:2px solid #58a6ff;border-radius:10px;padding:20px;margin-bottom:28px}
 .forward-title{font-size:14px;font-weight:700;color:#58a6ff;margin-bottom:4px}
 .forward-sub{font-size:12px;color:#8b949e;margin-bottom:16px}
@@ -144,23 +124,18 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
 .fcard-value{font-size:22px;font-weight:700}
 .fcard-value.g{color:#3fb950}.fcard-value.r{color:#f85149}.fcard-value.b{color:#58a6ff}.fcard-value.o{color:#d29922}
 .fcard-sub{font-size:11px;color:#8b949e;margin-top:2px}
-#forward-table-wrap{overflow-x:auto}
-
-/* glossary */
 .glossary{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:28px}
 .glossary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
 .gloss-item{padding:12px 16px;background:#0d1117;border-radius:8px;border-left:3px solid #58a6ff}
 .gloss-term{font-size:13px;font-weight:700;color:#58a6ff;margin-bottom:4px}
 .gloss-def{font-size:12px;color:#8b949e;line-height:1.5}
 .gloss-def strong{color:#e6edf3}
-
 #dashboard{display:none}
 </style>
 </head>
 <body>
-
 <h1>📊 Directional Trading Model Dashboard</h1>
-<p class="subtitle">Works with any stock — change the symbol in main.py, re-run, upload the new output.csv</p>
+<p class="subtitle">Change the ticker in <strong>data.py</strong>, re-run main.py, upload the new output.csv — everything updates automatically</p>
 
 <div id="upload-zone" onclick="document.getElementById('file-input').click()">
   <div class="icon">📂</div>
@@ -170,8 +145,6 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
 </div>
 
 <div id="dashboard">
-
-  <!-- TICKER HEADER -->
   <div class="ticker-header">
     <div class="ticker-badge" id="ticker-badge">—</div>
     <div>
@@ -187,7 +160,6 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     </div>
   </div>
 
-  <!-- SIGNAL + WHY -->
   <div class="signal-section">
     <div id="signal-banner" class="signal-banner no-trade">
       <div class="signal-icon" id="signal-icon">⏸</div>
@@ -203,9 +175,8 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     </div>
   </div>
 
-  <!-- STAT CARDS -->
   <div class="cards">
-    <div class="card green"><div class="card-label">Win Rate</div><div class="card-value" id="c-winrate">—</div><div class="card-sub">of BUY trades went up next day</div></div>
+    <div class="card green"><div class="card-label">Win Rate</div><div class="card-value" id="c-winrate">—</div><div class="card-sub">of BUY days where stock went up</div></div>
     <div class="card blue"><div class="card-label">Total Trades</div><div class="card-value" id="c-trades">—</div><div class="card-sub">BUY signals taken</div></div>
     <div class="card orange"><div class="card-label">Profit Factor</div><div class="card-value" id="c-pf">—</div><div class="card-sub">gains ÷ losses (above 1 = good)</div></div>
     <div class="card red"><div class="card-label">Avg Win</div><div class="card-value" id="c-avgwin">—</div><div class="card-sub">per winning trade</div></div>
@@ -213,10 +184,9 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     <div class="card purple"><div class="card-label">Model Confidence</div><div class="card-value" id="c-prob">—</div><div class="card-sub">today's blended probability</div></div>
   </div>
 
-  <!-- CHARTS ROW 1 -->
   <div class="charts-grid" style="grid-template-columns:2fr 1fr">
     <div class="chart-card">
-      <div class="chart-title" id="price-chart-title">Stock Price + Moving Averages</div>
+      <div class="chart-title" id="price-chart-title">Price + Moving Averages</div>
       <div class="chart-wrap tall"><canvas id="chart-price"></canvas></div>
     </div>
     <div class="chart-card">
@@ -225,12 +195,11 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     </div>
   </div>
 
-  <!-- CHARTS ROW 2 -->
   <div class="charts-grid">
     <div class="chart-card">
       <div class="chart-title" id="spy-chart-title">Stock vs SPY — Who's Winning?</div>
       <div class="chart-wrap"><canvas id="chart-spy"></canvas></div>
-      <div class="chart-note" id="spy-note">Both lines start at 100 on day 1. If your stock is <strong style="color:#58a6ff">above</strong> the orange SPY line it's beating the market. If it's <strong style="color:#f85149">below</strong>, SPY is outperforming it. Numbers are not prices — they show % gain/loss from the start of the window.</div>
+      <div class="chart-note">Both lines start at 0%. Numbers show % gain or loss from the start of the window. <strong style="color:#58a6ff">Stock above SPY = beating the market.</strong> <strong style="color:#f85149">Stock below SPY = market is outperforming.</strong></div>
     </div>
     <div class="chart-card">
       <div class="chart-title">Model Confidence Over Time</div>
@@ -238,7 +207,6 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     </div>
   </div>
 
-  <!-- 10-DAY ANALYSIS -->
   <div class="analysis-box">
     <div class="analysis-header">
       <div class="analysis-title" id="analysis-title">10-Day Outlook</div>
@@ -248,52 +216,49 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     <div class="analysis-grid" id="analysis-grid"></div>
   </div>
 
-  <!-- NEWS -->
   <div class="news-box">
     <div class="section-title" id="news-title">📰 Recent News</div>
     <div class="news-setup">
-      <strong>To show real live news:</strong> get a free API key at <a href="https://newsapi.org" target="_blank" style="color:#58a6ff">newsapi.org</a>, then open <code>sentiment.py</code> and replace <code>PASTE_YOUR_KEY_HERE</code> with your key. Re-run main.py. News will then load automatically for whatever stock you're analysing.
+      <strong>To show real news:</strong> paste your <a href="https://newsapi.org" target="_blank" style="color:#58a6ff">newsapi.org</a> key into the
+      <code>NEWSAPI_KEY</code> variable in this dashboard file (search for it in the script section at the bottom).
+      Also paste it into <code>sentiment.py</code>. Re-run main.py after.
     </div>
     <div id="news-container"><div style="color:#8b949e;font-size:13px">Loading news…</div></div>
   </div>
 
-  <!-- TRADES TABLE -->
   <div class="trades-table">
     <div class="section-title" id="table-title">Today + Last 19 Trading Days</div>
     <p class="table-note">
-      <span class="badge live">📍 LIVE</span> = today (pending) &nbsp;·&nbsp;
-      <span class="win">✅ Win</span> = said BUY, stock went UP — money made &nbsp;·&nbsp;
-      <span class="loss">❌ Loss</span> = said BUY, stock went DOWN — money lost &nbsp;·&nbsp;
-      <span class="missed">⚡ Missed</span> = said NO TRADE, stock went UP — opportunity skipped, <em>no money lost</em> &nbsp;·&nbsp;
-      <span class="neutral">— Correct skip</span> = said NO TRADE, stock went DOWN — model was right
+      The <strong>Result</strong> column shows what happened <strong>that same day</strong> — did the model's signal match what the stock actually did that day?<br>
+      <span class="win">✅ Win</span> = model said BUY and stock went UP that day &nbsp;·&nbsp;
+      <span class="loss">❌ Loss</span> = model said BUY and stock went DOWN that day &nbsp;·&nbsp;
+      <span class="missed">⚡ Missed</span> = model said NO TRADE but stock went UP — opportunity skipped, <em>no money lost</em> &nbsp;·&nbsp;
+      <span class="neutral">— Correct skip</span> = model said NO TRADE and stock went DOWN — model was right &nbsp;·&nbsp;
+      <span class="badge live">📍 LIVE</span> = today, market still open or just closed
     </p>
     <table>
       <thead>
-        <tr>
-          <th>Date</th><th>Open</th><th>Close</th><th>Day Change</th>
-          <th>Model Said</th><th>Confidence</th><th>Signal Strength</th><th>Volume</th><th>Result</th>
-        </tr>
+        <tr><th>Date</th><th>Open</th><th>Close</th><th>Day Change</th><th>Model Said</th><th>Confidence</th><th>Signal Strength</th><th>Volume</th><th>Result</th></tr>
       </thead>
       <tbody id="trades-body"></tbody>
     </table>
   </div>
 
-  <!-- FORWARD TRACKER -->
   <div class="forward-box">
     <div class="forward-title">🔴 Live Forward Tracker</div>
-    <div class="forward-sub" id="forward-sub">Tracks model performance from today forward — updates every time you re-run main.py and upload the new CSV. Historical data above is for context only; this box only counts from your first upload date onward.</div>
+    <div class="forward-sub" id="forward-sub">Tracks model performance from your chosen start date forward. Re-run main.py daily and re-upload CSV to update.</div>
     <div class="forward-cards">
-      <div class="fcard"><div class="fcard-label">Forward Trades</div><div class="fcard-value b" id="fw-trades">—</div><div class="fcard-sub">signals since tracking started</div></div>
-      <div class="fcard"><div class="fcard-label">Forward Win Rate</div><div class="fcard-value g" id="fw-winrate">—</div><div class="fcard-sub">% of BUY trades that won</div></div>
+      <div class="fcard"><div class="fcard-label">Forward Trades</div><div class="fcard-value b" id="fw-trades">—</div><div class="fcard-sub">BUY signals since tracking started</div></div>
+      <div class="fcard"><div class="fcard-label">Forward Win Rate</div><div class="fcard-value g" id="fw-winrate">—</div><div class="fcard-sub">% of days stock went up on BUY</div></div>
       <div class="fcard"><div class="fcard-label">Forward Profit Factor</div><div class="fcard-value o" id="fw-pf">—</div><div class="fcard-sub">gains ÷ losses live</div></div>
       <div class="fcard"><div class="fcard-label">Forward Equity</div><div class="fcard-value g" id="fw-equity">—</div><div class="fcard-sub">$1.00 in → $X now</div></div>
     </div>
     <div style="margin-bottom:12px">
-      <label style="font-size:12px;color:#8b949e">Tracking from date (YYYY-MM-DD): </label>
+      <label style="font-size:12px;color:#8b949e">Tracking from: </label>
       <input id="forward-date" type="date" style="background:#0d1117;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:4px 8px;font-size:12px;margin-left:8px">
       <button onclick="updateForwardTracker()" style="margin-left:8px;background:#58a6ff;border:none;color:#0d1117;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer">Update</button>
     </div>
-    <div id="forward-table-wrap">
+    <div style="overflow-x:auto">
       <table>
         <thead><tr><th>Date</th><th>Open</th><th>Close</th><th>Day Change</th><th>Model Said</th><th>Confidence</th><th>Signal Strength</th><th>Result</th></tr></thead>
         <tbody id="forward-body"></tbody>
@@ -301,36 +266,38 @@ tr.live-row td:first-child{font-weight:700;color:#58a6ff}
     </div>
   </div>
 
-  <!-- GLOSSARY -->
   <div class="glossary">
     <div class="section-title">📖 How to Read This Dashboard</div>
     <div class="glossary-grid">
-      <div class="gloss-item"><div class="gloss-term">Win Rate</div><div class="gloss-def">Of every BUY trade taken, what % closed higher the next day. <strong>Above 55% is strong.</strong> The model targets 53–57%.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Profit Factor</div><div class="gloss-def">Total dollars won ÷ total dollars lost. <strong>Above 1.0 = profitable.</strong> 1.5+ is strong. This matters more than win rate alone because a 50% win rate with big wins and small losses still makes money.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Model Confidence</div><div class="gloss-def">Score from 0–100% — how confident the model is the stock goes up tomorrow. <strong>Above 55% = BUY signal.</strong> Made from rule-based signals (70%) + machine learning (30%).</div></div>
-      <div class="gloss-item"><div class="gloss-term">Signal Strength (pips)</div><div class="gloss-def">How many of the model's 9 conditions passed today. <strong>Green bars = 7–9 conditions met.</strong> Yellow = 4–6. Red = 1–3. More green = higher quality signal.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Volume</div><div class="gloss-def">How much stock traded compared to the 20-day average. <strong>🔥 High volume on a BUY day = strong conviction.</strong> 🔇 Low volume moves are less reliable and more likely to reverse.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Day Change</div><div class="gloss-def">How much the stock moved that day (open to close). <strong>Green = stock went up that day. Red = went down.</strong> This shows the actual price action for each day in the table.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Stock vs SPY Chart</div><div class="gloss-def">Both lines start at 100. <strong>Stock above the orange SPY line = beating the market.</strong> Stock below = market is outperforming it. Numbers are not prices — they show relative performance from the start of the window.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Market Regime (top right)</div><div class="gloss-def">Describes the current market environment. <strong>Bull Trend = healthy uptrend,</strong> best conditions for BUY signals. Choppy/Sideways = mixed signals, be cautious. Bear Trend = downtrend, model will sit out most days.</div></div>
-      <div class="gloss-item"><div class="gloss-term">10-Day Outlook</div><div class="gloss-def">A plain-English summary of what the model sees for the next 10 trading days. <strong>Changes automatically when you switch stocks.</strong> Based on trend, momentum, volatility, and macro conditions — not a guarantee.</div></div>
-      <div class="gloss-item"><div class="gloss-term">Live Forward Tracker</div><div class="gloss-def">Tracks model accuracy <strong>from today forward</strong> — separate from the historical backtest. Set your start date, re-run main.py each day, and re-upload to see live performance build over time.</div></div>
-      <div class="gloss-item"><div class="gloss-term">⚡ Missed vs ❌ Loss</div><div class="gloss-def"><strong>Missed = zero money lost.</strong> Model said NO TRADE but stock went up — opportunity skipped, capital protected. <strong>Loss = money actually lost.</strong> Model said BUY and stock went down.</div></div>
-      <div class="gloss-item"><div class="gloss-term">RSI / MACD / Bollinger / VIX</div><div class="gloss-def">Technical indicators the model reads. RSI = momentum speed. MACD = buyers vs sellers. Bollinger Bands = where price sits relative to recent volatility. VIX = overall market fear level. All explained in the Why panel.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Win Rate</div><div class="gloss-def">Of every BUY day, what % did the stock actually go up that same day. <strong>Above 55% is strong.</strong></div></div>
+      <div class="gloss-item"><div class="gloss-term">Profit Factor</div><div class="gloss-def">Total dollars gained on winning trades ÷ total dollars lost. <strong>Above 1.0 = profitable.</strong> 1.5+ is strong.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Model Confidence</div><div class="gloss-def">Score 0–100% — how confident the model is. <strong>Above 55% = BUY signal.</strong> Rule-based (70%) + ML (30%).</div></div>
+      <div class="gloss-item"><div class="gloss-term">Signal Strength (pips)</div><div class="gloss-def">How many of 9 model conditions passed. <strong>Green = 7–9 (strong).</strong> Yellow = 4–6. Red = 1–3 (weak).</div></div>
+      <div class="gloss-item"><div class="gloss-term">Volume</div><div class="gloss-def">How much traded vs 20-day average. <strong>🔥 High volume on a BUY = strong conviction.</strong> Low volume moves are less reliable.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Day Change</div><div class="gloss-def">How much the stock moved open to close <strong>that day.</strong> Green = went up. Red = went down.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Result Column</div><div class="gloss-def"><strong>Win</strong> = said BUY, stock went up that day. <strong>Loss</strong> = said BUY, stock went down. <strong>Missed</strong> = said NO TRADE but stock went up (no money lost). <strong>Correct skip</strong> = said NO TRADE and stock fell — model was right.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Stock vs SPY Chart</div><div class="gloss-def">Both start at 0%. <strong>Stock above SPY line = beating the market.</strong> Numbers show % change from window start — not prices.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Market Regime</div><div class="gloss-def"><strong>Bull Trend</strong> = healthy uptrend, best for BUY signals. <strong>Sideways</strong> = mixed, fewer signals. <strong>Bear Trend</strong> = model sits out most days.</div></div>
+      <div class="gloss-item"><div class="gloss-term">10-Day Outlook</div><div class="gloss-def">Auto-generated plain-English analysis. <strong>Updates automatically when you switch stocks.</strong> Not a guarantee — always manage risk.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Live Forward Tracker</div><div class="gloss-def">Tracks real performance from your chosen start date. <strong>Separate from historical backtest.</strong> Re-upload CSV daily to update live results.</div></div>
+      <div class="gloss-item"><div class="gloss-term">Changing Stocks</div><div class="gloss-def">Change <strong>SYMBOL</strong> in <strong>data.py</strong> → re-run main.py → upload new output.csv. Dashboard updates everywhere automatically.</div></div>
     </div>
   </div>
-
 </div>
 
 <script>
+// ── NEWSAPI KEY ───────────────────────────────────────────────────
+// Paste your key from newsapi.org here (free account)
+// Example: const NEWSAPI_KEY = 'a1b2c3d4e5f6...';
+const NEWSAPI_KEY = '';
+// ─────────────────────────────────────────────────────────────────
+
 const C={green:'#3fb950',red:'#f85149',blue:'#58a6ff',orange:'#d29922',purple:'#bc8cff',grid:'#21262d',text:'#8b949e'};
 Chart.defaults.color=C.text;Chart.defaults.borderColor=C.grid;
 Chart.defaults.font.family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif";Chart.defaults.font.size=11;
-let charts={};
-let GLOBAL_ROWS=[];let GLOBAL_SYMBOL='STOCK';
+let charts={};let GLOBAL_ROWS=[];let GLOBAL_SYMBOL='STOCK';
 function destroyCharts(){Object.values(charts).forEach(c=>c.destroy());charts={};}
 
-// Upload
 const zone=document.getElementById('upload-zone');const input=document.getElementById('file-input');
 zone.addEventListener('dragover',e=>{e.preventDefault();zone.classList.add('drag-over');});
 zone.addEventListener('dragleave',()=>zone.classList.remove('drag-over'));
@@ -338,24 +305,21 @@ zone.addEventListener('drop',e=>{e.preventDefault();zone.classList.remove('drag-
 input.addEventListener('change',e=>loadFile(e.target.files[0]));
 function loadFile(f){if(!f)return;Papa.parse(f,{header:true,dynamicTyping:true,skipEmptyLines:true,complete:r=>{GLOBAL_ROWS=r.data;renderDashboard(r.data);}});}
 
-// Helpers
-function pf(v,d=2){return isNaN(parseFloat(v))?0:parseFloat(parseFloat(v).toFixed(d));}
+function pf(v,d=4){return isNaN(parseFloat(v))?0:parseFloat(parseFloat(v).toFixed(d));}
 function fdate(r){return(r.date||'').toString().split('T')[0].split(' ')[0];}
 
 function signalStrength(r){
-  return [
-    pf(r.ema_9)>pf(r.ema_21),pf(r.ma_20)>pf(r.ma_50),pf(r.close)>pf(r.ma_200),
+  return[pf(r.ema_9)>pf(r.ema_21),pf(r.ma_20)>pf(r.ma_50),pf(r.close)>pf(r.ma_200||0),
     pf(r.rsi_14)>40&&pf(r.rsi_14)<70,pf(r.macd_hist)>0,pf(r.vix||20)<35,
     !(r.earnings_blackout===1||r.earnings_blackout===true||r.earnings_blackout==='True'),
-    pf(r.trend_strength)>-0.001,pf(r.qqq_trend||1)>=1
-  ].filter(Boolean).length;
+    pf(r.trend_strength)>-0.001,pf(r.qqq_trend||1)>=1].filter(Boolean).length;
 }
 
 function renderStrengthBar(n,total=9){
   const cls=n>=7?'s-high':n>=4?'s-med':'s-low';
   const label=n>=7?'Strong':n>=4?'Moderate':'Weak';
   const pips=Array.from({length:total},(_,i)=>`<div class="pip ${i<n?'on '+cls:''}"></div>`).join('');
-  return `<div class="strength-bar"><div class="strength-pips">${pips}</div><span class="strength-label">${n}/${total} ${label}</span></div>`;
+  return`<div class="strength-bar"><div class="strength-pips">${pips}</div><span class="strength-label">${n}/${total} ${label}</span></div>`;
 }
 
 function volumeLabel(v){
@@ -368,112 +332,161 @@ function volumeLabel(v){
 function dayChangeHtml(r){
   const o=pf(r.open||r.close||0,2);const c=pf(r.close||0,2);
   const ch=o>0?((c-o)/o*100):0;
-  const cls=ch>=0?'win':'loss';
-  return`<span class="${cls}">${ch>=0?'+':''}${ch.toFixed(2)}%</span>`;
+  return`<span class="${ch>=0?'win':'loss'}">${ch>=0?'+':''}${ch.toFixed(2)}%</span>`;
 }
 
-// Market regime
-function getRegime(latest){
-  const ma20=pf(latest.ma_20);const ma50=pf(latest.ma_50);const ma200=pf(latest.ma_200||0);
-  const close=pf(latest.close);const vix=pf(latest.vix||20);
-  const ts=pf(latest.trend_strength);
+// Result for a given row based on that day's open→close move + model signal
+// "Did the model say BUY and was it right that day?"
+function getResult(r, isLive){
+  const traded = r.trade===true||r.trade==='True'||r.trade===1;
+  const o = pf(r.open||r.close||0);
+  const c = pf(r.close||0);
+  const dayWentUp = o>0 ? c>o : false;
+  const dayIsKnown = o>0 && c>0 && !isLive;
+
+  if(isLive || !dayIsKnown){
+    return '<span class="badge live">📍 LIVE</span>';
+  }
+  if(traded && dayWentUp){
+    return '✅ <span class="win">Win</span>';
+  }
+  if(traded && !dayWentUp){
+    return '❌ <span class="loss">Loss</span>';
+  }
+  if(!traded && dayWentUp){
+    return '⚡ <span class="missed">Missed</span>';
+  }
+  return '<span class="neutral">— Correct skip</span>';
+}
+
+function getRegime(r){
+  const ma20=pf(r.ma_20);const ma50=pf(r.ma_50);const ma200=pf(r.ma_200||0);
+  const close=pf(r.close);const vix=pf(r.vix||20);const ts=pf(r.trend_strength);
   if(close>ma200&&ma20>ma50&&ts>0.005&&vix<25)return{cls:'bull',name:'📈 Bull Trend'};
   if(close<ma200&&ma20<ma50&&ts<-0.005)return{cls:'bear',name:'📉 Bear Trend'};
   if(vix>28)return{cls:'bear',name:'⚡ High Volatility'};
-  if(Math.abs(ts)<0.002)return{cls:'neu',name:'↔️ Sideways / Choppy'};
+  if(Math.abs(ts)<0.002)return{cls:'neu',name:'↔️ Sideways'};
   if(ma20>ma50)return{cls:'bull',name:'↗️ Mild Uptrend'};
-  return{cls:'neu',name:'⚖️ Mixed / Transitional'};
+  return{cls:'neu',name:'⚖️ Mixed'};
 }
 
-// Checks (plain English)
 function buildChecks(r,sym){
   const rsi=pf(r.rsi_14);const macdh=pf(r.macd_hist);const ma20=pf(r.ma_20);const ma50=pf(r.ma_50);
   const ma200=pf(r.ma_200||0);const close=pf(r.close);const vix=pf(r.vix||20);
-  const ema9=pf(r.ema_9);const ema21=pf(r.ema_21);const earn=r.earnings_blackout===1||r.earnings_blackout===true||r.earnings_blackout==='True';
+  const ema9=pf(r.ema_9);const ema21=pf(r.ema_21);
+  const earn=r.earnings_blackout===1||r.earnings_blackout===true||r.earnings_blackout==='True';
   const qqq=pf(r.qqq_trend||1);const sent=pf(r.sentiment_norm||0.5);const s=sym||'the stock';
   return[
-    {pass:ema9>ema21,label:ema9>ema21?'✅ Short-term momentum is UP':'❌ Short-term momentum is DOWN',
-     explain:ema9>ema21?`The 9-day trend ($${ema9.toFixed(2)}) is above the 21-day trend ($${ema21.toFixed(2)}). ${s} has been climbing consistently — a positive sign.`:`The 9-day trend ($${ema9.toFixed(2)}) fell below the 21-day ($${ema21.toFixed(2)}). ${s} has been drifting lower. The model won't trade a falling stock.`},
-    {pass:ma20>ma50,label:ma20>ma50?'✅ Medium-term trend is healthy':'❌ Medium-term trend turned negative',
-     explain:ma20>ma50?`The 20-day average ($${ma20.toFixed(2)}) is above the 50-day ($${ma50.toFixed(2)}). ${s} has been trending higher over the past few months.`:`The 20-day average ($${ma20.toFixed(2)}) dropped below the 50-day ($${ma50.toFixed(2)}). The trend has shifted downward — the model sits out.`},
-    {pass:close>ma200,label:close>ma200?'✅ Long-term trend is bullish':'❌ Stock in a long-term downtrend',
-     explain:close>ma200?`${s} at $${close.toFixed(2)} is above its 200-day average ($${ma200.toFixed(2)}). The big-picture trend is healthy.`:`${s} at $${close.toFixed(2)} is below the 200-day average ($${ma200.toFixed(2)}). Long-term downtrend — model waits for recovery.`},
-    {pass:rsi>=40&&rsi<=70,label:rsi>70?'❌ Stock is overbought':rsi<40?'❌ Momentum too weak':`✅ Momentum ideal (RSI ${rsi.toFixed(0)})`,
-     explain:rsi>70?`RSI ${rsi.toFixed(1)} — ran up too fast, pullback risk. The model waits for it to cool below 70.`:rsi<40?`RSI ${rsi.toFixed(1)} — not enough buying pressure yet. The model waits for real momentum above 40.`:`RSI ${rsi.toFixed(1)} — the 40–70 sweet spot. Real momentum without being overextended. Ideal entry zone.`},
-    {pass:macdh>0,label:macdh>0?'✅ Buyers are in control':'❌ Sellers are in control',
-     explain:macdh>0?`MACD histogram positive (${macdh.toFixed(4)}). More money flowing into ${s} than out — buyers winning.`:`MACD negative (${macdh.toFixed(4)}). More money leaving ${s} than entering — sellers winning. Model only trades when buyers are ahead.`},
+    {pass:ema9>ema21,label:ema9>ema21?'✅ Short-term momentum UP':'❌ Short-term momentum DOWN',
+     explain:ema9>ema21?`The 9-day trend ($${ema9.toFixed(2)}) is above the 21-day ($${ema21.toFixed(2)}). ${s} has been climbing — a positive sign.`:`The 9-day trend ($${ema9.toFixed(2)}) fell below the 21-day ($${ema21.toFixed(2)}). ${s} drifting lower. Model won't trade a falling stock.`},
+    {pass:ma20>ma50,label:ma20>ma50?'✅ Medium-term trend healthy':'❌ Medium-term trend negative',
+     explain:ma20>ma50?`20-day average ($${ma20.toFixed(2)}) above 50-day ($${ma50.toFixed(2)}). ${s} trending higher over recent months.`:`20-day ($${ma20.toFixed(2)}) dropped below 50-day ($${ma50.toFixed(2)}). Trend shifted downward — model sits out.`},
+    {pass:close>ma200,label:close>ma200?'✅ Long-term trend bullish':'❌ Long-term downtrend',
+     explain:close>ma200?`${s} at $${close.toFixed(2)} above its 200-day average ($${ma200.toFixed(2)}). Big-picture trend is healthy.`:`${s} at $${close.toFixed(2)} below 200-day average ($${ma200.toFixed(2)}). Long-term downtrend — model waits for recovery.`},
+    {pass:rsi>=40&&rsi<=70,label:rsi>70?'❌ Stock overbought':rsi<40?'❌ Momentum too weak':`✅ Momentum ideal (RSI ${rsi.toFixed(0)})`,
+     explain:rsi>70?`RSI ${rsi.toFixed(1)} — ran up too fast, pullback risk. Model waits for it to cool below 70.`:rsi<40?`RSI ${rsi.toFixed(1)} — not enough buying pressure. Model needs momentum above 40 to trade.`:`RSI ${rsi.toFixed(1)} — the 40–70 sweet spot. Real momentum without being overextended.`},
+    {pass:macdh>0,label:macdh>0?'✅ Buyers in control':'❌ Sellers in control',
+     explain:macdh>0?`MACD positive (${macdh.toFixed(4)}). More money flowing into ${s} than out — buyers winning.`:`MACD negative (${macdh.toFixed(4)}). More money leaving ${s} — sellers winning. Model only trades when buyers are ahead.`},
     {pass:vix<35,label:vix<35?`✅ Market calm (VIX ${vix.toFixed(1)})`:' ❌ Market panic — too dangerous',
-     explain:vix<35?`VIX fear index is ${vix.toFixed(1)} — well below the 35 danger level. Stable enough to trade.`:`VIX is ${vix.toFixed(1)} — whole market in panic. Even great setups fail. Model sits out entirely above 35.`},
-    {pass:!earn,label:earn?'⚠️ Earnings blackout — sitting out':'✅ No earnings risk this week',
-     explain:earn?`${s} is reporting earnings very soon. A single EPS number can move the stock 5–8% either way. The model always skips earnings days.`:`No earnings coming up. No risk of a surprise earnings move wiping out the trade.`},
-    {pass:qqq>=1,label:qqq>=1?'✅ Tech sector uptrend (QQQ)':'⚠️ Tech sector not in uptrend',
-     explain:qqq>=1?`QQQ (Nasdaq tech ETF) is in an uptrend. When the broader tech sector is healthy, individual stock trades succeed more often.`:`QQQ is not in an uptrend right now — mild caution flag. Stocks tend to follow their sector.`},
-    {pass:sent>=0.5,label:sent>0.55?'✅ Recent news is positive':sent<0.45?'⚠️ Recent news is negative':'— News sentiment neutral',
-     explain:sent>0.55?`Recent headlines about ${s} are leaning positive — small boost to ML confidence.`:sent<0.45?`Recent headlines about ${s} are leaning negative — slight reduction in confidence. Set NewsAPI key in sentiment.py to activate.`:`News sentiment is neutral or NewsAPI key not set yet. Visit newsapi.org for a free key.`},
+     explain:vix<35?`VIX fear index ${vix.toFixed(1)} — below 35 danger level. Stable conditions to trade.`:`VIX ${vix.toFixed(1)} — market in panic. Even great setups fail in panic. Model sits out entirely above 35.`},
+    {pass:!earn,label:earn?'⚠️ Earnings blackout':'✅ No earnings risk this week',
+     explain:earn?`${s} is reporting earnings very soon. A single EPS number can move the stock 5–8% either way. Model always skips earnings days.`:`No earnings coming up. No risk of surprise earnings move wiping out the trade.`},
+    {pass:qqq>=1,label:qqq>=1?'✅ Tech sector uptrend (QQQ)':'⚠️ Tech sector not trending up',
+     explain:qqq>=1?`QQQ (Nasdaq tech ETF) is in an uptrend. When tech sector is healthy, individual stock trades succeed more.`:`QQQ not in an uptrend right now — mild caution. Stocks tend to follow their sector.`},
+    {pass:sent>=0.5,label:sent>0.55?'✅ Recent news positive':sent<0.45?'⚠️ Recent news negative':'— News sentiment neutral',
+     explain:sent>0.55?`Recent ${s} headlines leaning positive — small boost to ML confidence.`:sent<0.45?`Recent ${s} headlines leaning negative — slight reduction in confidence.`:`News sentiment neutral or NewsAPI key not set. Visit newsapi.org for a free key.`},
   ];
 }
 
-// News — fetch real headlines via NewsAPI if key is available
-// The key must be pasted below. Without it, example articles show.
-const NEWSAPI_KEY = 'f48e311d800f4096a72529bed5638487';  // paste your key here: 'abc123...'
-
-const POS=['beat','beats','record','surge','rally','upgrade','buyback','dividend','launch','growth','profit','strong','bullish','outperform','raised','exceeds','innovation','partnership','expansion','breakthrough','recovery','gained','jumps','rises','climbs','soars'];
-const NEG=['miss','misses','decline','drop','fell','lawsuit','downgrade','recall','investigation','loss','weak','bearish','underperform','lowered','below','cut','tariff','ban','fine','penalty','slowdown','warning','concern','fear','risk','crash','plunge','tumbles'];
-
-function scoreText(t){
-  const txt=(t||'').toLowerCase();
-  const pos=POS.filter(w=>txt.includes(w)).length;
-  const neg=NEG.filter(w=>txt.includes(w)).length;
-  const tot=pos+neg;return tot?((pos-neg)/tot):0;
-}
-
+// News — CORS fix: use newsapi.org directly when on GitHub Pages (https)
+// or allorigins proxy when running locally (file://)
 async function loadNews(sym){
   const container=document.getElementById('news-container');
   if(!NEWSAPI_KEY){
-    // Show placeholder with clear instructions — no fake demo articles
-    container.innerHTML=`<div style="color:#8b949e;font-size:13px;padding:12px;background:#0d1117;border-radius:8px">
-      No news key set. To show real ${sym} headlines:<br>
-      1. Go to <a href="https://newsapi.org" target="_blank" style="color:#58a6ff">newsapi.org</a> → Get API Key (free)<br>
-      2. Paste your key into the <code style="background:#21262d;padding:1px 4px;border-radius:3px;color:#58a6ff">NEWSAPI_KEY</code> variable at the top of the dashboard script section<br>
-      3. Also paste it into <code style="background:#21262d;padding:1px 4px;border-radius:3px;color:#58a6ff">sentiment.py</code> for the model to use it
+    container.innerHTML=`<div style="color:#8b949e;font-size:13px;padding:12px;background:#0d1117;border-radius:8px;line-height:1.7">
+      <strong style="color:#e6edf3">No API key set.</strong> To show real ${sym} news:<br>
+      1. Go to <a href="https://newsapi.org" target="_blank" style="color:#58a6ff">newsapi.org</a> → Get API Key (free, takes 2 min)<br>
+      2. Find <code style="background:#21262d;padding:1px 4px;border-radius:3px;color:#58a6ff">const NEWSAPI_KEY = '';</code> in this file<br>
+      3. Paste your key inside the quotes and save<br>
+      4. If on GitHub Pages, the key goes in the same spot in your hosted file
     </div>`;
     return;
   }
   try{
     container.innerHTML=`<div style="color:#8b949e;font-size:13px">Fetching ${sym} news…</div>`;
     const from=new Date(Date.now()-3*86400000).toISOString().split('T')[0];
-    const url=`https://newsapi.org/v2/everything?q=${encodeURIComponent(sym+' stock')}&from=${from}&language=en&sortBy=relevancy&pageSize=8&apiKey=${NEWSAPI_KEY}`;
-    const res=await fetch(url);
-    if(!res.ok){container.innerHTML=`<div style="color:#f85149;font-size:13px">News API error ${res.status} — check your key</div>`;return;}
-    const data=await res.json();
-    const articles=data.articles||[];
-    if(!articles.length){container.innerHTML=`<div style="color:#8b949e;font-size:13px">No recent news found for ${sym}.</div>`;return;}
+
+    // Determine if we're on https (GitHub Pages) or local file
+    // NewsAPI requires https for direct calls — on local file:// we use a proxy
+    let url;
+    if(window.location.protocol==='https:'){
+      // Direct call — works on GitHub Pages
+      url=`https://newsapi.org/v2/everything?q=${encodeURIComponent(sym+' stock')}&from=${from}&language=en&sortBy=relevancy&pageSize=8&apiKey=${NEWSAPI_KEY}`;
+    } else {
+      // Local file — browser blocks direct NewsAPI calls (CORS)
+      // Use allorigins.win as a free CORS proxy
+      const apiUrl=`https://newsapi.org/v2/everything?q=${encodeURIComponent(sym+' stock')}&from=${from}&language=en&sortBy=relevancy&pageSize=8&apiKey=${NEWSAPI_KEY}`;
+      url=`https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`;
+    }
+
+    const res=await fetch(url,{signal:AbortSignal.timeout(8000)});
+    if(!res.ok){
+      container.innerHTML=`<div style="color:#f85149;font-size:13px">News API error ${res.status}. Check your key is correct at newsapi.org.</div>`;
+      return;
+    }
+
+    let data;
+    const text=await res.text();
+    try{
+      const parsed=JSON.parse(text);
+      // allorigins wraps the response in {contents: "..."}
+      data = parsed.contents ? JSON.parse(parsed.contents) : parsed;
+    }catch(e){
+      container.innerHTML=`<div style="color:#f85149;font-size:13px">Could not parse news response. Try again.</div>`;
+      return;
+    }
+
+    const POS=['beat','beats','record','surge','rally','upgrade','buyback','dividend','launch','growth','profit','strong','bullish','outperform','raised','exceeds','innovation','partnership','expansion','breakthrough','recovery','gained','jumps','rises','climbs','soars'];
+    const NEG=['miss','misses','decline','drop','fell','lawsuit','downgrade','recall','investigation','loss','weak','bearish','underperform','lowered','below','cut','tariff','ban','fine','penalty','slowdown','warning','concern','fear','risk','crash','plunge','tumbles'];
+    function score(t){const txt=(t||'').toLowerCase();const p=POS.filter(w=>txt.includes(w)).length;const n=NEG.filter(w=>txt.includes(w)).length;const tot=p+n;return tot?(p-n)/tot:0;}
+
+    const articles=(data.articles||[]);
+    if(!articles.length){
+      container.innerHTML=`<div style="color:#8b949e;font-size:13px">No recent news found for ${sym}. Try again tomorrow.</div>`;
+      return;
+    }
+
     container.innerHTML=articles.map(a=>{
-      const text=(a.title||'')+(a.description||'');
-      const sc=scoreText(text);
+      const sc=score((a.title||'')+(a.description||''));
       const icon=sc>0.1?'📈':sc<-0.1?'📉':'📰';
       const cls=sc>0.1?'pos':sc<-0.1?'neg':'neu';
       const label=sc>0.1?`+${sc.toFixed(2)} Positive`:sc<-0.1?`${sc.toFixed(2)} Negative`:'Neutral';
+      const date=(a.publishedAt||'').split('T')[0];
       return`<div class="news-item">
         <div class="news-sentiment">${icon}</div>
         <div>
-          <div class="news-headline"><a href="${a.url}" target="_blank">${a.title}</a></div>
-          <div class="news-meta">${a.source?.name||'News'} · ${(a.publishedAt||'').split('T')[0]} <span class="news-score ${cls}">${label}</span></div>
+          <div class="news-headline"><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title||'No title'}</a></div>
+          <div class="news-meta">${a.source?.name||'News'} · ${date} <span class="news-score ${cls}">${label}</span></div>
         </div></div>`;
     }).join('');
-  }catch(e){container.innerHTML=`<div style="color:#f85149;font-size:13px">Could not load news: ${e.message}</div>`;}
+  }catch(e){
+    container.innerHTML=`<div style="color:#f85149;font-size:13px">Could not load news: ${e.message}. Check your API key and internet connection.</div>`;
+  }
 }
 
 // 10-day analysis
 function generate10DayAnalysis(rows,sym){
-  const latest=rows[rows.length-1];const s=sym||'The stock';
-  const rsi=pf(latest.rsi_14);const macdh=pf(latest.macd_hist);const ts=pf(latest.trend_strength);
-  const vix=pf(latest.vix||20);const ma20=pf(latest.ma_20);const ma50=pf(latest.ma_50);
-  const ma200=pf(latest.ma_200||0);const close=pf(latest.close);const bb_pct=pf(latest.bb_pct||0.5);
-  const vol5=pf(latest.vol_5d||0);const vol20=pf(latest.vol_20d||0);
-  const trades=rows.filter(r=>r.trade===true||r.trade==='True'||r.trade===1);
-  const rec=trades.slice(-20).filter(r=>!isNaN(pf(r.future_ret_1d)));
-  const rWR=rec.length?rec.filter(r=>pf(r.future_ret_1d)>0).length/rec.length:0.5;
+  const r=rows[rows.length-1];const s=sym||'The stock';
+  const rsi=pf(r.rsi_14);const macdh=pf(r.macd_hist);const ts=pf(r.trend_strength);
+  const vix=pf(r.vix||20);const ma20=pf(r.ma_20);const ma50=pf(r.ma_50);
+  const ma200=pf(r.ma_200||0);const close=pf(r.close);const bb_pct=pf(r.bb_pct||0.5);
+  const vol5=pf(r.vol_5d||0);const vol20=pf(r.vol_20d||0);
+  const trades=rows.filter(x=>x.trade===true||x.trade==='True'||x.trade===1);
+  const rec20=trades.slice(-20);
+  // Win rate for recent trades using open→close that day
+  const recWithResult=rec20.filter(x=>pf(x.open||0)>0&&pf(x.close||0)>0);
+  const recWins=recWithResult.filter(x=>pf(x.close)>pf(x.open)).length;
+  const rWR=recWithResult.length?recWins/recWithResult.length:0.5;
   let bull=0,bear=0;
   if(ma20>ma50)bull++;else bear++;if(close>ma200)bull++;else bear++;if(macdh>0)bull++;else bear++;
   if(rsi>45&&rsi<65)bull++;else if(rsi>70||rsi<30)bear++;if(ts>0)bull++;else bear++;
@@ -483,67 +496,63 @@ function generate10DayAnalysis(rows,sym){
   document.getElementById('analysis-title').textContent=`${s} — 10-Day Outlook`;
   const badge=document.getElementById('analysis-badge');badge.textContent=outlookLabel;badge.className=`analysis-badge ${outlook}`;
   let nar='';
-  if(outlook==='bull'){nar=`Based on current readings, <strong>${s} is showing a bullish lean</strong> for the next 10 trading days. The medium-term trend is upward (MA20 above MA50), buying pressure is positive, and price is in a healthy position. ${rsi<65?`RSI at ${rsi.toFixed(0)} leaves room to run without being overbought. `:''}${vix<25?`Low market fear (VIX ${vix.toFixed(0)}) supports a favourable environment. `:''}The model's recent win rate on the last 20 signals has been <strong>${(rWR*100).toFixed(0)}%</strong>. <em>Not a guarantee — always manage risk.</em>`;}
-  else if(outlook==='bear'){nar=`Current readings suggest <strong>${s} faces headwinds over the next 10 trading days</strong>. ${ma20<ma50?`The short-term trend has crossed below the medium-term (MA20 below MA50) — a classic warning. `:''}${close<ma200?`Price is below the 200-day average — long-term downtrend territory. `:''}${macdh<0?`Negative MACD confirms sellers are in control. `:''}${vix>28?`Elevated market fear (VIX ${vix.toFixed(0)}) adds additional risk. `:''}The model will likely sit out most days until conditions improve. <em>Not a sell recommendation — the model simply waits for better conditions.</em>`;}
-  else{nar=`<strong>${s} is showing mixed signals</strong> — some indicators positive, others cautious. RSI at ${rsi.toFixed(0)} is neutral, MACD is ${macdh>0?'slightly positive':'slightly negative'}, and the trend is ${Math.abs(ts)<0.005?'essentially flat':'mildly '+(ts>0?'positive':'negative')}. In mixed markets the model is selective — expect fewer signals and smaller positions until a clearer direction emerges. <em>Mixed markets often resolve into a clear trend — the model adapts automatically.</em>`;}
+  if(outlook==='bull'){nar=`Based on current readings, <strong>${s} is showing a bullish lean</strong> for the next 10 trading days. The trend is upward, buying pressure is positive, and price is in a healthy position relative to its moving averages. ${rsi<65?`RSI at ${rsi.toFixed(0)} leaves room to run without being overbought. `:''}${vix<25?`Low market fear (VIX ${vix.toFixed(0)}) supports stable conditions. `:''}The model's recent signals have been winning <strong>${(rWR*100).toFixed(0)}%</strong> of the time. <em>Not a guarantee — always manage risk.</em>`;}
+  else if(outlook==='bear'){nar=`Current readings suggest <strong>${s} faces headwinds over the next 10 days</strong>. ${ma20<ma50?`The short-term trend has crossed below the medium-term (MA20 below MA50) — a classic warning sign. `:''}${close<ma200?`Price below the 200-day average signals a long-term downtrend. `:''}${macdh<0?`Negative MACD confirms sellers are in control. `:''}${vix>28?`Elevated fear (VIX ${vix.toFixed(0)}) adds additional risk. `:''}The model will likely sit out most days until conditions improve. <em>Not a sell signal — just patience.</em>`;}
+  else{nar=`<strong>${s} is showing mixed signals</strong> — some indicators positive, others cautious. RSI is neutral at ${rsi.toFixed(0)}, MACD is ${macdh>0?'slightly positive':'slightly negative'}, and trend strength is ${Math.abs(ts)<0.005?'flat':'mildly '+(ts>0?'positive':'negative')}. The model will be selective — expect fewer signals until a clearer direction emerges. <em>Mixed markets often resolve into a clear trend — the model adapts automatically.</em>`;}
   document.getElementById('analysis-body').innerHTML=nar;
   const points=[
-    {cls:ts>0.005?'bull':ts<-0.005?'bear':'neu',title:'Trend Direction',body:ts>0.005?`<strong>Uptrend.</strong> MA gap is widening — momentum building.`:ts<-0.005?`<strong>Downtrend.</strong> MA20 below MA50. Trend working against buyers.`:`<strong>Sideways.</strong> No clear direction. Choppy range.`},
+    {cls:ts>0.005?'bull':ts<-0.005?'bear':'neu',title:'Trend Direction',body:ts>0.005?`<strong>Uptrend.</strong> Moving averages diverging upward — momentum building.`:ts<-0.005?`<strong>Downtrend.</strong> MA20 below MA50. Trend working against buyers.`:`<strong>Sideways.</strong> No clear direction — choppy range.`},
     {cls:rsi>55&&rsi<70?'bull':rsi>70||rsi<30?'bear':'neu',title:'Momentum (RSI)',body:rsi>70?`<strong>Overbought ${rsi.toFixed(0)}.</strong> Pullback risk next 5–10 days.`:rsi<30?`<strong>Oversold ${rsi.toFixed(0)}.</strong> May bounce — needs confirmation.`:rsi>55?`<strong>Healthy ${rsi.toFixed(0)}.</strong> Positive momentum with room to continue.`:`<strong>Neutral ${rsi.toFixed(0)}.</strong> No strong momentum either way.`},
     {cls:bb_pct>0.8?'bear':bb_pct<0.2?'bull':'neu',title:'Price Position',body:bb_pct>0.8?`<strong>Near upper band (${(bb_pct*100).toFixed(0)}%).</strong> Extended — pullback risk.`:bb_pct<0.2?`<strong>Near lower band (${(bb_pct*100).toFixed(0)}%).</strong> Compressed — bounce candidate.`:`<strong>Mid-range (${(bb_pct*100).toFixed(0)}%).</strong> Room in either direction.`},
-    {cls:vix<20?'bull':vix>30?'bear':'neu',title:'Market Environment',body:vix<20?`<strong>Calm (VIX ${vix.toFixed(0)}).</strong> Ideal for longs. Low fear supports upside.`:vix>30?`<strong>High fear (VIX ${vix.toFixed(0)}).</strong> Volatile — even good setups can fail.`:`<strong>Moderate (VIX ${vix.toFixed(0)}).</strong> Normal trading conditions.`},
-    {cls:vol5<vol20?'bull':'bear',title:'Volatility Trend',body:vol5<vol20?`<strong>Calming down.</strong> Last 5 days less volatile than 20-day avg — stock may be coiling for a move.`:`<strong>Picking up.</strong> Last 5 days choppier than usual — larger swings, higher risk per trade.`},
-    {cls:rWR>0.55?'bull':rWR<0.45?'bear':'neu',title:'Recent Model Performance',body:`Last 20 signals win rate: <strong>${(rWR*100).toFixed(0)}%</strong>. ${rWR>0.55?'Above average — model reading conditions well.':rWR<0.45?'Below average — conditions may be challenging right now.':'Near long-term average — stable performance.'}`},
+    {cls:vix<20?'bull':vix>30?'bear':'neu',title:'Market Environment',body:vix<20?`<strong>Calm (VIX ${vix.toFixed(0)}).</strong> Ideal for longs.`:vix>30?`<strong>High fear (VIX ${vix.toFixed(0)}).</strong> Even good setups can fail.`:`<strong>Moderate (VIX ${vix.toFixed(0)}).</strong> Normal conditions.`},
+    {cls:vol5<vol20?'bull':'bear',title:'Volatility Trend',body:vol5<vol20?`<strong>Calming down.</strong> Last 5 days less volatile than 20-day avg — may be coiling for a move.`:`<strong>Picking up.</strong> Last 5 days choppier than usual — higher risk per trade.`},
+    {cls:rWR>0.55?'bull':rWR<0.45?'bear':'neu',title:'Recent Model Performance',body:`Last 20 BUY signals win rate: <strong>${(rWR*100).toFixed(0)}%</strong>. ${rWR>0.55?'Above average — model reading conditions well.':rWR<0.45?'Below average — conditions may be challenging.':'Near long-term average.'}`},
   ];
   document.getElementById('analysis-grid').innerHTML=points.map(p=>`<div class="analysis-point ${p.cls}"><div class="analysis-point-title">${p.title}</div><div class="analysis-point-body">${p.body}</div></div>`).join('');
 }
 
-// Forward tracker
+// Forward tracker — uses open→close day result, not future_ret_1d
 function updateForwardTracker(){
   const rows=GLOBAL_ROWS;if(!rows.length)return;
-  const dateEl=document.getElementById('forward-date');
-  const cutoff=dateEl.value||(new Date().toISOString().split('T')[0]);
+  const cutoff=document.getElementById('forward-date').value||(new Date().toISOString().split('T')[0]);
   const fwRows=rows.filter(r=>fdate(r)>=cutoff);
-  const trades=fwRows.filter(r=>r.trade===true||r.trade==='True'||r.trade===1);
-  const withRet=trades.filter(r=>!isNaN(pf(r.future_ret_1d)));
-  const wins=withRet.filter(r=>pf(r.future_ret_1d)>0);
-  const losses=withRet.filter(r=>pf(r.future_ret_1d)<=0);
-  const tG=wins.reduce((s,r)=>s+pf(r.future_ret_1d),0);
-  const tL=Math.abs(losses.reduce((s,r)=>s+pf(r.future_ret_1d),0));
+  const buys=fwRows.filter(r=>r.trade===true||r.trade==='True'||r.trade===1);
+  const buysWithResult=buys.filter(r=>pf(r.open||0)>0&&pf(r.close||0)>0);
+  const wins=buysWithResult.filter(r=>pf(r.close)>pf(r.open));
+  const losses=buysWithResult.filter(r=>pf(r.close)<=pf(r.open));
+  const tG=wins.reduce((s,r)=>s+Math.abs((pf(r.close)-pf(r.open))/pf(r.open)),0);
+  const tL=losses.reduce((s,r)=>s+Math.abs((pf(r.close)-pf(r.open))/pf(r.open)),0);
   let equity=1.0;
-  withRet.forEach(r=>{equity*=(1+(pf(r.future_ret_1d)-0.001));});
-  document.getElementById('fw-trades').textContent=withRet.length||'0';
-  document.getElementById('fw-winrate').textContent=withRet.length?(wins.length/withRet.length*100).toFixed(1)+'%':'—';
+  buysWithResult.forEach(r=>{
+    const dayRet=(pf(r.close)-pf(r.open))/pf(r.open);
+    equity*=(1+(dayRet*pf(r.position_size||0.15)-0.001));
+  });
+  document.getElementById('fw-trades').textContent=buysWithResult.length||'0';
+  document.getElementById('fw-winrate').textContent=buysWithResult.length?(wins.length/buysWithResult.length*100).toFixed(1)+'%':'—';
   document.getElementById('fw-pf').textContent=tL>0?(tG/tL).toFixed(3):'∞';
   document.getElementById('fw-equity').textContent=equity.toFixed(4)+'x';
-  document.getElementById('forward-sub').textContent=`Tracking ${GLOBAL_SYMBOL} performance from ${cutoff} onward. Re-run main.py and re-upload CSV to update.`;
+  document.getElementById('forward-sub').textContent=`Tracking ${GLOBAL_SYMBOL} from ${cutoff} forward. Re-run main.py and re-upload CSV to update.`;
   const rev=[...fwRows].reverse().slice(0,30);
-  document.getElementById('forward-body').innerHTML=rev.map(r=>{
+  document.getElementById('forward-body').innerHTML=rev.map((r,idx)=>{
+    const isLive=idx===0&&(pf(r.close)===0||!r.close);
     const traded=r.trade===true||r.trade==='True'||r.trade===1;
-    const ret=pf(r.future_ret_1d);const isLive=isNaN(ret)||ret===0&&fdate(r)===new Date().toISOString().split('T')[0];
-    let result;
-    if(isLive)result='<span class="badge live">📍 LIVE</span>';
-    else if(traded&&ret>0)result='✅ <span class="win">Win</span>';
-    else if(traded&&ret<=0)result='❌ <span class="loss">Loss</span>';
-    else if(!traded&&ret>0)result='⚡ <span class="missed">Missed</span>';
-    else result='<span class="neutral">— Correct skip</span>';
+    const result=getResult(r,isLive);
+    const prob2=pf(r.probability);
     return`<tr>
       <td>${fdate(r)}</td><td>$${pf(r.open||r.close,2).toFixed(2)}</td><td>$${pf(r.close,2).toFixed(2)}</td>
       <td>${dayChangeHtml(r)}</td>
       <td>${traded?'<span class="badge bull">BUY</span>':'<span class="badge neu">NO TRADE</span>'}</td>
-      <td><span class="${pf(r.probability)>0.57?'win':pf(r.probability)>0.53?'neutral':'loss'}">${(pf(r.probability)*100).toFixed(1)}%</span></td>
+      <td><span class="${prob2>0.57?'win':prob2>0.53?'neutral':'loss'}">${(prob2*100).toFixed(1)}%</span></td>
       <td>${renderStrengthBar(signalStrength(r))}</td>
       <td>${result}</td>
     </tr>`;
   }).join('');
 }
 
-// Main render
 function renderDashboard(rows){
   destroyCharts();
   document.getElementById('upload-zone').style.display='none';
   document.getElementById('dashboard').style.display='block';
-
   const latest=rows[rows.length-1];
   const sym=(latest.symbol||latest.ticker||'STOCK').toString().toUpperCase();
   GLOBAL_SYMBOL=sym;
@@ -551,7 +560,7 @@ function renderDashboard(rows){
   // Ticker header
   document.getElementById('ticker-badge').textContent=sym;
   const close0=pf(latest.close);const ret0=pf(latest.ret_1d);
-  const change=close0-(close0/(1+ret0));
+  const prevC=close0/(1+ret0);const change=close0-prevC;
   document.getElementById('ticker-price').textContent='$'+close0.toFixed(2);
   const cel=document.getElementById('ticker-change');
   cel.textContent=(change>=0?'+':'')+change.toFixed(2)+' ('+(ret0*100).toFixed(2)+'%)';
@@ -568,15 +577,15 @@ function renderDashboard(rows){
   rtab.className=`regime-tab ${regime.cls}`;
   document.getElementById('regime-name').textContent=regime.name;
 
-  // Stats
-  const trades=rows.filter(r=>r.trade===true||r.trade==='True'||r.trade===1);
-  const withRet=trades.filter(r=>!isNaN(pf(r.future_ret_1d))&&r.future_ret_1d!=null);
-  const wins=withRet.filter(r=>pf(r.future_ret_1d)>0);
-  const losses=withRet.filter(r=>pf(r.future_ret_1d)<=0);
-  const tG=wins.reduce((s,r)=>s+pf(r.future_ret_1d),0);
-  const tL=Math.abs(losses.reduce((s,r)=>s+pf(r.future_ret_1d),0));
-  document.getElementById('c-winrate').textContent=withRet.length?(wins.length/withRet.length*100).toFixed(1)+'%':'—';
-  document.getElementById('c-trades').textContent=withRet.length;
+  // Stats — use open→close day change for win/loss calculation
+  const buys=rows.filter(r=>r.trade===true||r.trade==='True'||r.trade===1);
+  const buysWithResult=buys.filter(r=>pf(r.open||0)>0&&pf(r.close||0)>0);
+  const wins=buysWithResult.filter(r=>pf(r.close)>pf(r.open));
+  const losses=buysWithResult.filter(r=>pf(r.close)<=pf(r.open));
+  const tG=wins.reduce((s,r)=>s+((pf(r.close)-pf(r.open))/pf(r.open)),0);
+  const tL=Math.abs(losses.reduce((s,r)=>s+((pf(r.close)-pf(r.open))/pf(r.open)),0));
+  document.getElementById('c-winrate').textContent=buysWithResult.length?(wins.length/buysWithResult.length*100).toFixed(1)+'%':'—';
+  document.getElementById('c-trades').textContent=buysWithResult.length;
   document.getElementById('c-pf').textContent=tL>0?(tG/tL).toFixed(3):'∞';
   document.getElementById('c-avgwin').textContent=wins.length?'+'+(tG/wins.length*100).toFixed(2)+'%':'—';
   document.getElementById('c-avgloss').textContent=losses.length?(tL/losses.length*100*-1).toFixed(2)+'%':'—';
@@ -593,20 +602,20 @@ function renderDashboard(rows){
     document.getElementById('signal-icon').textContent='⚠️';
     document.getElementById('signal-title').textContent='DO NOT TRADE — Earnings Blackout';
     document.getElementById('signal-title').style.color='#d29922';
-    document.getElementById('reason-list').innerHTML='<li><span>⚠️</span><span class="r-text"><strong>Earnings blackout.</strong> Always sits out — a single EPS number can move the stock 5–8% regardless of indicators.</span></li>';
+    document.getElementById('reason-list').innerHTML='<li><span>⚠️</span><span class="r-text"><strong>Earnings blackout.</strong> Model always sits out — a single EPS number can move the stock 5–8%.</span></li>';
   }else if(isTrade){
     banner.className='signal-banner buy';
     document.getElementById('signal-icon').textContent='🟢';
-    document.getElementById('signal-title').textContent=`BUY SIGNAL — ${sym} looks good for tomorrow`;
+    document.getElementById('signal-title').textContent=`BUY SIGNAL — ${sym} looks good for today`;
     document.getElementById('signal-title').style.color='#3fb950';
     document.getElementById('reason-list').innerHTML='<li><span>✅</span><span class="r-text"><strong>All conditions passed.</strong> Trend up, momentum strong, market calm, confidence above 55%.</span></li>';
   }else{
     banner.className='signal-banner no-trade';
     document.getElementById('signal-icon').textContent='⏸';
-    document.getElementById('signal-title').textContent=`NO TRADE — Model says sit out ${sym} tomorrow`;
+    document.getElementById('signal-title').textContent=`NO TRADE — Model says sit out ${sym} today`;
     document.getElementById('signal-title').style.color='#8b949e';
     const failed=buildChecks(latest,sym).filter(c=>!c.pass);
-    document.getElementById('reason-list').innerHTML=failed.slice(0,3).map(c=>`<li><span>❌</span><span class="r-text">${c.explain}</span></li>`).join('')||'<li><span>ℹ️</span><span class="r-text">Probability did not clear the 55% threshold.</span></li>';
+    document.getElementById('reason-list').innerHTML=failed.slice(0,3).map(c=>`<li><span>❌</span><span class="r-text">${c.explain}</span></li>`).join('')||'<li><span>ℹ️</span><span class="r-text">Probability did not clear 55% threshold.</span></li>';
   }
 
   // Why box
@@ -622,18 +631,13 @@ function renderDashboard(rows){
   // News
   loadNews(sym);
 
-  // Trades table — last 20 rows newest first
+  // Trades table — last 20 rows, newest first, result = that day's open→close
   const last20=[...rows.slice(-20)].reverse();
   document.getElementById('trades-body').innerHTML=last20.map((r,idx)=>{
     const isLive=idx===0;
     const traded=r.trade===true||r.trade==='True'||r.trade===1;
-    const ret=pf(r.future_ret_1d);const prob2=pf(r.probability);
-    let result;
-    if(isLive||isNaN(ret))result='<span class="badge live">📍 LIVE</span>';
-    else if(traded&&ret>0)result='✅ <span class="win">Win</span>';
-    else if(traded&&ret<=0)result='❌ <span class="loss">Loss</span>';
-    else if(!traded&&ret>0)result='⚡ <span class="missed">Missed</span>';
-    else result='<span class="neutral">— Correct skip</span>';
+    const prob2=pf(r.probability);
+    const result=getResult(r,isLive);
     return`<tr class="${isLive?'live-row':''}">
       <td>${isLive?'📍 ':''}${fdate(r)}</td>
       <td>$${pf(r.open||r.close,2).toFixed(2)}</td>
@@ -647,7 +651,7 @@ function renderDashboard(rows){
     </tr>`;
   }).join('');
 
-  // Forward tracker default to today
+  // Forward tracker
   const today=new Date().toISOString().split('T')[0];
   document.getElementById('forward-date').value=today;
   updateForwardTracker();
@@ -655,43 +659,40 @@ function renderDashboard(rows){
   // Charts
   const slice=rows.slice(-120);
   const labels=slice.map(r=>fdate(r));
-
-  charts.price=new Chart(document.getElementById('chart-price'),{
-    type:'line',data:{labels,datasets:[
-      {label:'Close', data:slice.map(r=>r.close), borderColor:C.blue,   borderWidth:1.5,pointRadius:0,fill:false},
-      {label:'MA 20', data:slice.map(r=>r.ma_20), borderColor:C.green,  borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
-      {label:'MA 50', data:slice.map(r=>r.ma_50), borderColor:C.orange, borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
-      {label:'MA 200',data:slice.map(r=>r.ma_200),borderColor:C.purple, borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
-    ]},
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{boxWidth:10,font:{size:10}}}},
-      scales:{x:{ticks:{maxTicksLimit:8,maxRotation:0}},y:{ticks:{callback:v=>'$'+v.toFixed(0)}}}}
-  });
-
-  charts.wl=new Chart(document.getElementById('chart-wl'),{
-    type:'doughnut',
-    data:{labels:['Wins','Losses'],datasets:[{data:[wins.length,losses.length],backgroundColor:[C.green,C.red],borderWidth:0,hoverOffset:6}]},
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,font:{size:11}}}}}
-  });
-
-  // SPY vs stock — normalised to 100 at start of window
   const stockPrices=slice.map(r=>pf(r.close));
   const spyRets=slice.map(r=>pf(r.spy_ret));
   const base=stockPrices[0]||1;
-  const stockNorm=stockPrices.map(p=>parseFloat((p/base*100).toFixed(2)));
-  let spyIdx=100;const spyLine=[100];
-  for(let i=1;i<spyRets.length;i++){spyIdx*=(1+spyRets[i]);spyLine.push(parseFloat(spyIdx.toFixed(2)));}
+  const stockNorm=stockPrices.map(p=>parseFloat(((p/base-1)*100).toFixed(2)));
+  let spyIdx=1;const spyNorm=[0];
+  for(let i=1;i<spyRets.length;i++){spyIdx*=(1+spyRets[i]);spyNorm.push(parseFloat(((spyIdx-1)*100).toFixed(2)));}
 
-  charts.spy=new Chart(document.getElementById('chart-spy'),{
+  charts.price=new Chart(document.getElementById('chart-price'),{
     type:'line',data:{labels,datasets:[
-      {label:sym,    data:stockNorm, borderColor:C.blue,   borderWidth:1.5,pointRadius:0,fill:false},
-      {label:'SPY',  data:spyLine,   borderColor:C.orange, borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
+      {label:'Close', data:stockPrices,              borderColor:C.blue,  borderWidth:1.5,pointRadius:0,fill:false},
+      {label:'MA 20', data:slice.map(r=>r.ma_20),   borderColor:C.green, borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
+      {label:'MA 50', data:slice.map(r=>r.ma_50),   borderColor:C.orange,borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
+      {label:'MA 200',data:slice.map(r=>r.ma_200),  borderColor:C.purple,borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
     ]},
     options:{responsive:true,maintainAspectRatio:false,
       plugins:{legend:{labels:{boxWidth:10,font:{size:10}}}},
-      scales:{x:{ticks:{maxTicksLimit:6,maxRotation:0}},y:{ticks:{callback:v=>{
-        const diff=v-100;return(diff>=0?'+':'')+diff.toFixed(1)+'%';
-      }}}}}
+      scales:{x:{ticks:{maxTicksLimit:8,maxRotation:0}},y:{ticks:{callback:v=>'$'+parseFloat(v).toFixed(0)}}}}
+  });
+
+  const winsCount=wins.length;const lossCount=losses.length;
+  charts.wl=new Chart(document.getElementById('chart-wl'),{
+    type:'doughnut',
+    data:{labels:['Wins','Losses'],datasets:[{data:[winsCount,lossCount],backgroundColor:[C.green,C.red],borderWidth:0,hoverOffset:6}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,font:{size:11}}}}}
+  });
+
+  charts.spy=new Chart(document.getElementById('chart-spy'),{
+    type:'line',data:{labels,datasets:[
+      {label:sym,  data:stockNorm,borderColor:C.blue,  borderWidth:1.5,pointRadius:0,fill:false},
+      {label:'SPY',data:spyNorm,  borderColor:C.orange,borderWidth:1,  pointRadius:0,fill:false,borderDash:[4,2]},
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{labels:{boxWidth:10,font:{size:10}}}},
+      scales:{x:{ticks:{maxTicksLimit:6,maxRotation:0}},y:{ticks:{callback:v=>(v>=0?'+':'')+parseFloat(v).toFixed(1)+'%'}}}}
   });
 
   charts.prob=new Chart(document.getElementById('chart-prob'),{
